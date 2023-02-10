@@ -1,1 +1,13 @@
-Hello world!
+<pre>When I try to install extention in Codespaces i got Error loading webview: Error: Could not register service workers: SecurityError: The operation is insecure..</pre>
+<script>
+
+let rot=()=>{
+	let element=document.querySelector('pre')
+	let text=element.innerText
+	text=text.slice(1)+text.slice(0,1)
+	element.innerText=text
+}
+rot()
+setInterval(rot, 100)
+
+</script>
